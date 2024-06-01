@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GIMTravel: Explore Indonesia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+    href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+</head>
+<body>
+    <header>
+      <a href="#" class="logo"><img src="image/gim2.jpeg" alt=""></a>
+      <ul class="navmenu">
+        <li><a href="#home">Beranda</a></li>
+        <li><a href="#category">Kategori</a></li>
+        <li><a href="#destination">Destinasi</a></li>
+        <li><a href="#testimonials">Testimoni</a></li>
+        <li><a href="#booking">Kontak</a></li>
+      </ul>
+  
+      <div class="btn-icon">
+        <a href="#loginsection" class="nav-btn" id="signup-btn">Masuk</a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+      </div>
+    </header>
+  
+    <section class="Login" id="loginsection">
+      <h2>Login</h2>
+      <form id="login-form" method="post">
+        <div class="form-group">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+        </div>
+        <div class="form-group">
+          <label for="password">Password:</label>
+          <input type="password" id="password" name="password" required>
+        </div>
+        <div class="form-group">
+          <input type="submit" value="Login">
+        </div>
+      </form>
+    </section>
+  
+    <script src="script.js"></script>
+  </body>
+  
+  
+<!--home-section-->
+<section class="home" id="home">
+    <div class="home-text">
+        <h4>Best Destination Arround Indoneisa</h4>
+        <h1>Eksplor Keindahan Alam <br> Indonesia</h1>
+        <p>Indonesia adalah negeri yang kaya akan keajaiban, kami hadir untuk mengantarkan Anda merasakan segala pesonanya.</p>
+
+        <div class="button">
+            <a href="#category" class="btn1">Selengkapnya</a>
+        </div>
+    </div>
+    <div class="home-img">
+        <img src="image/handphone.png" alt="">
+    </div>
+
+</section>
+
+<section class="category" id="category">
+    <div class="center-text">
+        <h4>Kategori</h4>
+        <h2>layanan terbaik kami</h2>
+    </div>
+
+    <div class="cate-pro">
+        <div class="row">
+            <img src="image/pesawat.png" alt="">
+            <h5>Transportasi Terbaik</h5>
+            <P> Kami memiliki transportasi terbaik yang akan mengantarkan anda berwisata dengan aman dan nyaman.</P>
+        </div>
+
+    <div class="row">
+        <img src="image/hotel.png" alt="">
+        <h5>Hotel Berbintang </h5>
+        <P>Bekerja sama dengan hotel terbaik di kota wisata pilihan anda Kami akan memberikan pilihan terbaik untuk anda dalam berwisata</P>
+    </div>
+
+    
+    <div class="row">
+        <img src="image/tiket.png" alt="">
+        <h5>Tiket Wisata</h5>
+        <P>Kami yang akan menyiapkan<br> tiket wisata sehingga <br> anda hanya perlu berlibur tanpa memikirkan tiket </P>
+    </div>   
+    
+    <div class="row">
+        <img src="image/tourguide.png" alt="">
+        <h5>Tour guide</h5>
+        <P>berpengalaman lebih dari 10 tahun<br> pemandu wisata kami akan membantu <br> anda dalam berwisata</P>
+    </div>
+
+</section>
+
+
+<!--Destination section-->
+
+    <!-- tokyo -->
+<section class="destination" id="destination">  
+    <div class="dest-text">
+    <h5>Top Place</h5>
+    <h2>Destinasi Wisata Pilihan</h2>
+</div>
+<div class="main-dest">
+    <div class="box">
+        <div class="hov-img"> 
+            <a href="morebali.html"><img src="image/bali.jpeg" alt=""></a> 
+
+        </div>
+        <div class="box-text">
+            <div class="text-in">
+                <h5>Bali</h5>
+                <p>Rp7.200.000 / Pax</p>
+            </div>
+            <h6 class="coun-text">Bali</h6>
+        </div>
+    </div>
+        <!-- paris -->
+    <div class="box">
+        <div class="hov-img">
+            <a href="morebandung.html"><img src="image/bandung.jpeg" alt=""></a>
+        </div>
+        <div class="box-text">
+            <div class="text-in">
+                <h5>Bandung</h5>
+                <p>Rp2.000.000 / Pax</p>
+            </div>  
+            <h6 class="coun-text">Jawa Barat</h6>
+        </div>
+    </div>
+            <!-- new York -->
+    <div class="box">
+        <div class="hov-img">
+            <a href="moreyogyakarta.html"><img src="image/yogyakarta.jpg" alt=""></a>
+        </div>
+        <div class="box-text">
+            <div class="text-in">
+                <h5>Yogyakarta</h5>
+                <p>Rp2.500.000 / Pax</p>
+            </div>
+            <h6 class="coun-text">Jawa Tengah</h6>
+        </div>
+    </div>
+            <!-- LA -->
+    <div class="box">
+        <div class="hov-img">
+            <a href="moremalang.html"><img src="image/malang.jpeg" alt=""></a>
+        </div>
+        <div class="box-text">
+            <div class="text-in">
+                <h5>Malang</h5>
+                <p>Rp3.000.000 / Pax</p>
+            </div>
+            <h6 class="coun-text">Jawa Timur</h6>
+        </div>
+    </div>
+        <!-- london -->
+    <div class="box">
+        <div class="hov-img">
+            <a href="morelombok.html"><img src="image/lombok.jpg" alt=""></a>
+        </div>
+        <div class="box-text">
+            <div class="text-in">
+                <h5>Lombok</h5>
+                <p>Rp4.500.000 / Pax</p>
+            </div>
+            <h6 class="coun-text">nusa tenggara barat</h6>
+        </div>
+    </div>
+        <!-- Barcelona -->
+    <div class="box">
+        <div class="hov-img">
+            <a href="morelabuanbajo.html"><img src="image/labuanbajo.jpg" alt=""></a>
+        </div>
+        <div class="box-text">
+            <div class="text-in">
+                <h5>Labuan Bajo</h5>
+                <p>Rp5.000.000 / Pax</p>
+            </div>
+            <h6 class="coun-text">Nusa Tenggara Timur</h6>
+        </div>
+    </div>
+        <!-- bangkok -->
+    <div class="box">
+        <div class="hov-img">
+            <a href="morebandaneira.html"><img src="image/bandaneira.jpg" alt=""></a>
+        </div>
+        <div class="box-text">
+            <div class="text-in">
+                <h5>Banda Neira</h5>
+                <p>Rp4.000.000 / Pax</p>
+            </div>
+            <h6 class="coun-text">Maluku</h6>
+        </div>
+    </div>
+        <!-- amsterdam -->
+    <div class="box">
+        <div class="hov-img">
+            <a href="morekepulauanseribu.html"><img src="image/pulauseribu.jpg" alt=""></a>
+        </div>
+        <div class="box-text">
+            <div class="text-in">
+                <h5>Kepulauan Seribu</h5>
+                <p>Rp1.000.000 / Pax</p>
+            </div>
+            <h6 class="coun-text">Jakarta</h6>
+        </div>
+    </div>
+</div>
+</section>  
+
+<!-- Testimonials-section -->
+<section class="testimonial" id="testimonials">
+    <div class="test-text">
+      <div class="left">
+        <h4>Testimoni</h4>
+        <h3>Kenapa harus <br> indoTravel?</h3>
+      </div>
+
+      <div class="carousel-container">
+        <div class="carousel">
+          <div class="carousel-item">
+            <div class="testimonial-item">
+              <img src="image/jascon.jpeg" alt="">
+              <div class="testimonial-caption">
+                <h5>Jascon Johanest Kembuan</h5>
+                <p>Pelayanan yang diberikan indoTravel sangat memuaskan, dengan harga yang terjangkau namun fasilitas yang diberikan sangat memuaskan, saya sangat merekomendasikan infoTravel untuk menjadi pilihan liburan teman-teman.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div class="testimonial-item">
+              <img src="image/rajif.jpeg" alt="">
+              <div class="testimonial-caption">
+                <h5>Muhammad Rajif Haq Gea</h5>
+                <p>"Perjalanan Terbaik dengan situs travel terbaik"</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a class="carousel-prev" onclick="changeSlide(-1)">&#10094;</a>
+        <a class="carousel-next" onclick="changeSlide(1)">&#10095;</a>
+      </div>
+    </div>
+  </section>
+  
+  
+    
+
+<!-- air office section -->
+
+<section class="air-office" id="booking">
+
+    <div class="office-name">
+        <img src="image/garuda.png" alt="">
+        <img src="image/airasia.png" alt="">
+        <img src="image/harris.png" alt="">
+        <img src="image/santika.png" alt="">
+
+
+
+    </div>
+
+</section>
+
+
+<!-- contact-section -->
+<section class="contact">
+    <div class="contact-info">
+        <div class="first-info">
+            <img src="image/gim1.jpeg" alt="">
+            <h6>Discover the beauty of Indonesia</h6>
+        </div>
+
+        <div class="sec-info">
+            <h4>Perusahaan</h4>
+            <p>Tentang Kami</p>
+        </div>
+
+        <div class="third-info">
+            <h4>Kontak</h4>
+            <p>Help/FAQ</p>
+        </div>
+
+        <div class="fourth-info">
+            <h4>More</h4>
+            <p>Kerja sama</p>
+        </div>
+        <div class="fifth-info">
+            <div class="icon">
+                <a href="#"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="grad-icon"><i class='bx bxl-instagram-alt'></i></a>
+                <a href="#"><i class='bx bxl-twitter'></i></a>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="end-text">
+    <div class="footer">
+        <p>All Right Reserved@Gema Hafizh Maulidi</p>
+    </div>
+</div>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script src="java.js"></script>
+</body>
+</html>
